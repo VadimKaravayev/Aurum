@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Aurum.Api/Aurum.Api.fsproj" />
+    <Project Path="src/Aurum.Domain/Aurum.Domain.fsproj" />
+    <Project Path="src/Aurum.Infrastructure/Aurum.Infrastructure.fsproj" />
+  </Folder>
+</Solution>

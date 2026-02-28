@@ -1,0 +1,27 @@
+# Build output
+bin/
+obj/
+
+# dotnet
+*.user
+*.suo
+.vs/
+.vscode/
+
+# NuGet
+*.nupkg
+*.snupkg
+project.lock.json
+packages/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# SQLite database files
+*.db
+*.db-shm
+*.db-wal
