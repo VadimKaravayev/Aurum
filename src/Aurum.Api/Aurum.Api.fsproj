@@ -5,6 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <!-- Order matters in F#: each file can only use types defined in files above it -->
+    <Compile Include="Helpers.fs" />
+    <Compile Include="AccountHandlers.fs" />
+    <Compile Include="TransactionHandlers.fs" />
+    <Compile Include="Router.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
