@@ -6,7 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Library.fs" />
+    <!-- Order matters in F#: each file can only use types defined in files above it -->
+    <Compile Include="Db.fs" />
+    <Compile Include="AccountRepo.fs" />
+    <Compile Include="TransactionRepo.fs" />
   </ItemGroup>
 
   <ItemGroup>

@@ -8,6 +8,12 @@ obj/
 .vs/
 .vscode/
 
+# JetBrains Rider
+.idea/
+
+# Internal docs
+docs/
+
 # NuGet
 *.nupkg
 *.snupkg
